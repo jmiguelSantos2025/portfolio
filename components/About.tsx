@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { MapPin, Calendar, Briefcase, Code } from "lucide-react";
+import Image from "next/image";
 
 const stats = [
   { label: "Anos exp.", value: "1+" },
@@ -40,13 +41,14 @@ export default function About() {
             className="flex justify-center"
           >
             <div className="relative">
-              <div className="w-72 h-72 rounded-3xl bg-gradient-to-br from-emerald-500/15 to-teal-500/5 border border-emerald-500/15 flex items-center justify-center">
-                <span className="text-8xl font-black text-emerald-500/20 select-none">JM</span>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-teal-300 select-none">
-                    JM
-                  </span>
-                </div>
+              <div className="w-72 h-72 rounded-3xl border border-emerald-500/15 overflow-hidden relative">
+                <Image
+                  src="/foto_perfil.jpg"
+                  alt="João Miguel"
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
 
               <div className="absolute -bottom-5 -right-5 w-20 h-20 bg-[#111] border border-emerald-500/20 rounded-2xl flex items-center justify-center shadow-xl">
