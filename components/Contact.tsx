@@ -174,7 +174,7 @@ export default function Contact() {
                 ) : loading ? (
                   "Enviando..."
                 ) : (
-                  <>
+                  <>  
                     <Send size={15} />
                     Enviar Mensagem
                   </>

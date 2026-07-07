@@ -47,10 +47,10 @@ const accentMap: Record<string, { card: string; badge: string }> = {
     card: "hover:border-green-500/30 hover:shadow-green-500/5",
     badge: "bg-green-500/10 text-green-400 border-green-500/15",
   },
-  purple: {
-    card: "hover:border-purple-500/30 hover:shadow-purple-500/5",
-    badge: "bg-purple-500/10 text-purple-400 border-purple-500/15",
-  },
+  yellow: {
+  card: "hover:border-yellow-500/30 hover:shadow-yellow-500/5",
+  badge: "bg-yellow-500/10 text-yellow-400 border-yellow-500/15",
+},
 };
 
 export default function Projects() {
