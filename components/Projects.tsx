@@ -34,7 +34,7 @@ const projects = [
     tech: ["FastAPI", "SQLAlchemy", "Python"],
     github: "https://github.com/jmiguelSantos2025/solarise-backend",
     live: null,
-    accent: "purple",
+    accent: "yellow",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function Projects() {
           </h2>
           <div className="w-12 h-1 bg-emerald-500 mx-auto mt-5 rounded-full" />
           <p className="text-zinc-500 mt-5 max-w-md mx-auto text-sm leading-relaxed">
-            Projetos que desenvolvi com foco em impacto real, boa arquitetura e tecnologias modernas.
+            Projetos que desenvolvi com foco em resolver a dor de clientes e tecnologias modernas.
           </p>
         </motion.div>
 

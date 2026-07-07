@@ -67,16 +67,16 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.25 }}
           >
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 leading-tight">
-              Desenvolvedor mobile com paixão por impacto real
+              Desenvolvedor de software e entusiasta da tecnologia
             </h3>
             <p className="text-zinc-400 leading-relaxed mb-4">
-              Sou João Miguel, desenvolvedor mobile baseado em Manaus, AM. Com mais de
-              1 ano de experiência, crio aplicações React Native de alta qualidade integrando
-              Firebase, IA e visão computacional.
+              Meu nome é João Miguel, desenvolvedor de software residente em Manaus, AM. Com mais de
+              1 ano de experiência, crio aplicações React Native e com outras tecnologias integrando
+              Banco de Dados, IA e visão computacional.
             </p>
             <p className="text-zinc-400 leading-relaxed mb-8">
-              Combino arquitetura de software sólida com UI/UX cuidadosa para entregar
-              produtos que as pessoas realmente querem usar — e que funcionam.
+              Combino conhecimentos técnicos e necessidades dos clientes  para entregar
+              produtos que resolvam dores do mercado
             </p>
 
             <div className="flex flex-col gap-3 mb-8">

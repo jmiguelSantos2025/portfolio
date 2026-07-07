@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-xl md:text-2xl text-zinc-400 font-medium mb-5"
         >
-          Desenvolvedor Mobile · React Native · TypeScript · IA
+          Desenvolvedor de software · React Native · TypeScript · IA
         </motion.h2>
 
         <motion.p
@@ -63,8 +63,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-zinc-500 text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          Crio experiências móveis excepcionais que combinam boa arquitetura,
-          UI cuidadosa e tecnologias de ponta — de Firebase a visão computacional com IA.
+          Crio produtos de software que combinam boa arquitetura,
+          visão na dor do cliente e tecnologia — de Firebase a visão computacional com IA.
         </motion.p>
 
         <motion.div
