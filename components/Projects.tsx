@@ -27,12 +27,12 @@ const projects = [
     accent: "green",
   },
   {
-    icon: "🏦",
-    name: "Nubank Clone",
+    icon: "☀️",
+    name: "Solarise - Backend",
     description:
-      "Aplicação de simulação bancária inspirada no Nubank, construída para praticar e aprofundar habilidades em mobile.",
-    tech: ["React Native", "Expo", "TypeScript"],
-    github: "https://github.com/jmiguelSantos2025/Nubank",
+      "Plataforma de Gestão de Contratos para Geração de Energia Solar",
+    tech: ["FastAPI", "SQLAlchemy", "Python"],
+    github: "https://github.com/jmiguelSantos2025/solarise-backend",
     live: null,
     accent: "purple",
   },
